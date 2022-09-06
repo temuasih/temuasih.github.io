@@ -1,1 +1,0 @@
-# temuasih.github.io
