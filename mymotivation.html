@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sliding</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+      body {
+        width: 100%;
+        background-color:rgb(0, 0, 0);
+      }
+      .tombolnya {
+        height: 35px;
+        width: 33%;
+        background-color: rgb(30, 29, 32);
+        color: rgb(140, 117, 193);
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        cursor: pointer;
+      }
+      .isitombol {
+        width: 30%;
+        height: 30%;
+        background-color: rgb(180, 155, 250);
+        margin: auto;
+        display: none;
+        box-shadow: rgb(198, 164, 252);
+        border-radius: 10px;
+        padding: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="tombolnya">
+        <p>MY MOTIVATION</p>
+      </div>
+      <div class="isitombol">
+        <p>"Semakin keras kamu bekerja untuk sesuatu, semakin besar perasaanmu saat mencapainya"</p>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".tombolnya").click(function () {
+          $(".isitombol").slideToggle("slow");
+        });
+      });
+    </script>
+  </body>
+</html>
