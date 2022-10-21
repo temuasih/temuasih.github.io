@@ -1,0 +1,111 @@
+body{
+    background-color:beige;
+}
+.surat{
+    width: 800px;
+    height: 870px;
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+}
+
+.duwur{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 10px;
+    margin-right: 10PX;
+}
+
+img{ 
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.stmik{
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: red;
+    line-height: 30px;
+    font-size: 60px;
+    margin: 0;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+.ikmi {
+    font-size: 37px;
+    line-height: 20px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: blue;
+}
+
+.kopi{
+    display: flex;
+}
+
+.crb {
+    
+    line-height: 29px;
+    font-size:22px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: green;
+}
+.iya{
+    font-size: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.yupi{
+    text-align: left;
+    margin-left: 20px;
+}
+.almt{
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.skt{
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    width: 55%;
+}
+
+.banpt{
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    width: 45%;
+    
+}
+
+.akreditasi{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.hal{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.judul{
+    font-size: 17px;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
